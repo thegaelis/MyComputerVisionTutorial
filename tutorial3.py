@@ -6,7 +6,7 @@ import cv2
 #Webcam or video: n=0 or n=1 if there's a webcam
 # n cams: n
 #video: 'directory of video' ->cv2.VideoCapture('directory of video')
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 #A loop to catch a key to stop recording
 #ret: make sure that the capture would work properly
